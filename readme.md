@@ -28,10 +28,11 @@ deno run helloWorld.ts
 You should seee "Hello World" in your console.
 
 2. server.ts
-   Here its the feature of deno, it needs permission for creting a server.
 
 ```bash
 deno run --allow-net=0.0.0.0:8000 server.ts
 ```
 
-As you can see above, we are setting permission to access localhost:8000
+Open `localhost:8000` in your browser and you should see hello world.  
+As you can see above, we are setting permission to access localhost:8000  
+If you check its document, this the feature deno is boasting about. it needs permission for creting a server.
