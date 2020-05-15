@@ -36,4 +36,4 @@ deno run --allow-net=0.0.0.0:8000 server.ts
 Open `localhost:8000` in your browser and you should see hello world.  
 As you can see above, we are setting permission to access localhost:8000 `--allow-net:0.0.0.0:8000`
 If you check its document, this the feature deno is boasting about.  
-DENO is Secure by default. No file, network, or environment access (unless explicitly enabled).
+DENO: is Secure by default. No file, network, or environment access (unless explicitly enabled).
